@@ -1,0 +1,18 @@
+@use "variables" as v;
+
+@mixin flex-center($direction: row) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: $direction;
+}
+
+@mixin card($bg, $color: $white) {
+  background-color: $bg;
+  color: $color;
+  border-radius: v.$radius;
+  padding: 2rem;
+}
+
+@mixin respond($min) { @media (min-width: $min) { @content; } }
+@mixin card-shadow { box-shadow: 0 10px 30px rgba(0,0,0,.08); }

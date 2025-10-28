@@ -1,0 +1,28 @@
+@use "variables" as v;
+@use "mixins" as mx;
+
+.testimonials {
+  display: grid;
+  gap: v.$gap;
+  grid-template-columns: 1fr;
+
+  grid-template-areas:
+    "daniel"
+    "jonathan"
+    "jeanette"
+    "patrick"
+    "kira";
+
+  @include mx.respond(v.$bp-lg) {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+      "daniel   daniel   jonathan kira"
+      "jeanette patrick  patrick  kira";
+  }
+}
+
+.card--daniel   { grid-area: daniel; }
+.card--jonathan { grid-area: jonathan; }
+.card--jeanette { grid-area: jeanette; }
+.card--patrick  { grid-area: patrick; }
+.card--kira     { grid-area: kira; }
