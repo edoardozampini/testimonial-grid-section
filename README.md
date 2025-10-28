@@ -14,8 +14,6 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
   - [Continued development](#continued-development)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -37,7 +35,7 @@ The goal of the challenge was to **recreate the design faithfully** while keepin
 
 ### Links
 
-- **Solution URL:** [https://www.frontendmentor.io/solutions/testimonials-grid-section-with-css-grid-and-sass-XXXXXXXX](https://www.frontendmentor.io/solutions/testimonials-grid-section-with-css-grid-and-sass-XXXXXXXX)  
+- **Solution URL:** [https://www.frontendmentor.io/solutions/testimonial-grid-section-using-css-grid-and-sass-W0dQDAK0Lc](https://www.frontendmentor.io/solutions/testimonial-grid-section-using-css-grid-and-sass-W0dQDAK0Lc)  
 - **Live Site URL:** [https://edoardozampini.github.io/testimonial-grid-section/](https://edoardozampini.github.io/testimonial-grid-section/)
 
 ---
@@ -89,4 +87,4 @@ In future projects, I’d like to:
 
 - Website: [Schima](https://schima.it/)
 - Frontend Mentor: https://www.frontendmentor.io/profile/edoardozampini
-- GitHub: (https://github.com/edoardozampini)
+- GitHub: https://github.com/edoardozampini

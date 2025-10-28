@@ -106,7 +106,7 @@ body {
 }
 
 .card--white {
-  background: hsl(214, 17%, 92%);
+  background: hsl(0, 0%, 100%);
   color: hsl(217, 19%, 35%);
 }
 
